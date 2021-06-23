@@ -43,7 +43,7 @@ response. The solution is to manually craft the `Authorization` header.
 We recommend you use OAuth tokens to authenticate to the GitHub API. OAuth tokens include [personal access tokens][personal-access-tokens] and enable the user to revoke access at any time.
 
 ```shell
-$ curl -u <em>username</em>:<em>token</em> {% data variables.product.api_url_pre %}/user
+$ curl -u <em>juansonof01@gmail.com</em>:<em>token</em> {% data variables.product.api_url_pre %}/user
 ```
 
 This approach is useful if your tools only support Basic Authentication but you want to take advantage of OAuth access token security features.
@@ -69,7 +69,7 @@ would authenticate you if you replace `<username>` with your {% data variables.p
 (cURL will prompt you to enter the password.)
 
 ```shell
-$ curl -u <em>username</em> {% data variables.product.api_url_pre %}/user
+$ curl -u <em>juansonof01@gmail.com</em> {% data variables.product.api_url_pre %}/user
 ```
 If you have two-factor authentication enabled, make sure you understand how to [work with two-factor authentication](/rest/overview/other-authentication-methods#working-with-two-factor-authentication).
 
@@ -135,7 +135,7 @@ $ curl --request POST \
 ```
 {% endif %}
 
-[curl]: http://curl.haxx.se/
+[curl]: http://curl.haxx.se/y
 [oauth-auth]: /rest#authentication
 [personal-access-tokens]: /articles/creating-a-personal-access-token-for-the-command-line
 [saml-sso]: /articles/about-identity-and-access-management-with-saml-single-sign-on
